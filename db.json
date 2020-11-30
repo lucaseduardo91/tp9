@@ -1,0 +1,258 @@
+{
+    "hospitais": [
+        {
+            "id": 0,
+            "nome": "Go to the gym",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Hospital na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 4.5
+        },
+        {
+            "id": 1,
+            "name": "Walk the dog",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Hospital na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 3.5
+        },
+        {
+            "id": 2,
+            "nome": "Get some pizza",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Hospital na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 5
+        }
+    ],
+    "delegacias": [
+        {
+            "id": 0,
+            "nome": "Go to the gym",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Delegacia na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 4.5
+        },
+        {
+            "id": 1,
+            "nome": "Walk the dog",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Delegacia na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 3.5
+        },
+        {
+            "id": 2,
+            "nome": "Get some pizza",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Delegacia na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 5
+        }
+    ],
+    "pontos-turisticos": [
+        {
+            "id": 0,
+            "nome": "Go to the gym",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Ponto turístico na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 4.5
+        },
+        {
+            "id": 1,
+            "nome": "Walk the dog",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Ponto turístico na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 3.5
+        },
+        {
+            "id": 2,
+            "nome": "Get some pizza",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Ponto turístico na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 5
+        }
+    ],
+    "praias": [
+        {
+            "id": 0,
+            "nome": "Go to the gym",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Praia na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 4.5
+        },
+        {
+            "id": 1,
+            "nome": "Walk the dog",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Praia na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 3.5
+        },
+        {
+            "id": 2,
+            "nome": "Get some pizza",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Praia na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 5
+        }
+    ],
+    "onde-comer": [
+        {
+            "id": 0,
+            "nome": "Clássico Beach Club",
+            "endereco": "Av. Pasteur 520",
+            "bairro": "Urca",
+            "descricao": "Restaurante na Barra da Tijuca",
+            "sobre": "Restaurante na Barra da Tijuca",
+            "imagem": "indisponivel.png",
+            "classificacao": 4.5
+        },
+        {
+            "id": 1,
+            "nome": "Seu Cristovao",
+            "endereco": "Rua Sao Cristovao 291 S",
+            "bairro": "Sao Cristovao",
+            "descricao": "Restaurante na Barra da Tijuca",
+            "sobre": "Restaurante na Barra da Tijuca",
+            "imagem": "indisponivel.png",
+            "classificacao": 3.5
+        },
+        {
+            "id": 2,
+            "nome": "Galeto 183",
+            "endereco": "Rua de Santana, 183",
+            "bairro": "Centro",
+            "descricao": "Restaurante na Barra da Tijuca",
+            "sobre": "Restaurante na Barra da Tijuca",
+            "imagem": "indisponivel.png",
+            "classificacao": 5
+        }
+    ],
+    "onde-dormir": [
+        {
+            "id": 0,
+            "nome": "Radisson Hotel",
+            "endereco": "Av. Evandro Lins e Silva, 600",
+            "bairro": "Barra da Tijuca",
+            "descricao": "Hotel na Barra da Tijuca",
+            "sobre": "Hotel na Barra da Tijuca",
+            "imagem": "indisponivel.png",
+            "classificacao": 4.5
+        },
+        {
+            "id": 1,
+            "nome": "Hotel Atlântico Tower",
+            "endereco": "Rua Visconde de Inhauma, 95",
+            "bairro": "Centro",
+            "descricao": "Hotel no Centro",
+            "sobre": "Hotel no Centro",
+            "imagem": "indisponivel.png",
+            "classificacao": 3.5
+        },
+        {
+            "id": 2,
+            "nome": "Windsor",
+            "endereco": "Av. Lúcio Costa, 2630",
+            "bairro": "Barra da Tijuca",
+            "descricao": "Hotel na Barra da Tijuca",
+            "sobre": "Hotel na Barra da Tijuca",
+            "imagem": "indisponivel.png",
+            "classificacao": 5
+        }
+    ],
+    "eventos": [
+        {
+            "id": 0,
+            "nome": "Go to the gym",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Evento na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 4.5
+        },
+        {
+            "id": 1,
+            "nome": "Walk the dog",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Evento na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 3.5
+        },
+        {
+            "id": 2,
+            "nome": "Get some pizza",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Evento na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 5
+        }
+    ],
+    "banheiros": [
+        {
+            "id": 0,
+            "nome": "Go to the gym",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Banheiro na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 4.5
+        },
+        {
+            "id": 1,
+            "nome": "Walk the dog",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Banheiro na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 3.5
+        },
+        {
+            "id": 2,
+            "nome": "Get some pizza",
+            "endereco": "",
+            "bairro": "",
+            "descricao": "",
+            "sobre": "Banheiro na Barra da Tijuca",
+            "imagem": "",
+            "classificacao": 5
+        }
+    ]
+}
