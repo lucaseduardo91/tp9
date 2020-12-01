@@ -22,6 +22,7 @@
         tag="article"
         style="max-width: 18rem"
         class="mb-3 text-center"
+        @click="detalhar(restaurante.id,'onde-comer-detalhe')"
       >
         <b-card-text> Bairro: {{ restaurante.bairro }} </b-card-text>
         
@@ -47,6 +48,7 @@
         tag="article"
         style="max-width: 18rem"
         class="mb-3 text-center"
+        @click="detalhar(hotel.id,'onde-dormir-detalhe')"
       >
         <b-card-text> Bairro: {{ hotel.bairro }} </b-card-text>
         
@@ -81,6 +83,11 @@ export default {
       console.error(e);
     }
   },
+  methods:{
+    detalhar(idClick, tipo){
+      this.$router.push({ name: tipo, params: { id: idClick} })
+    }
+  }
 };
 </script>
 

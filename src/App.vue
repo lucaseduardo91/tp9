@@ -2,7 +2,7 @@
 <div id="body">
   <Header></Header>
   <b-container id="main">
-    <router-view />
+    <router-view :key="$route.fullPath" />
   </b-container>
   <Footer></Footer>
 </div>
