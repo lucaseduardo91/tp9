@@ -2,129 +2,129 @@
     "hospitais": [
         {
             "id": 0,
-            "nome": "Go to the gym",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
+            "nome": "Barra D'Or",
+            "endereco": "Av. Ayrton Senna, 3079",
+            "bairro": "Barra da Tijuca",
+            "descricao": "Hospital na Barra da Tijuca",
             "sobre": "Hospital na Barra da Tijuca",
-            "imagem": "",
+            "imagem": "indisponivel.png",
             "classificacao": 4.5
         },
         {
             "id": 1,
-            "name": "Walk the dog",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
+            "name": "Hospital São Lucas",
+            "endereco": "Av. Frederico Pamplona, 32",
+            "bairro": "Copacabana",
+            "descricao": "Hospital na Barra da Tijuca",
             "sobre": "Hospital na Barra da Tijuca",
-            "imagem": "",
+            "imagem": "indisponivel.png",
             "classificacao": 3.5
         },
         {
             "id": 2,
-            "nome": "Get some pizza",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
+            "nome": "Copa Star",
+            "endereco": "Rua Figueiredo de Magalhães, 700",
+            "bairro": "Copacabana",
+            "descricao": "Hospital na Barra da Tijuca",
             "sobre": "Hospital na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 5
+            "imagem": "indisponivel.png",
+            "classificacao": 5.0
         }
     ],
     "delegacias": [
         {
             "id": 0,
-            "nome": "Go to the gym",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Delegacia na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 4.5
-        },
-        {
-            "id": 1,
-            "nome": "Walk the dog",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Delegacia na Barra da Tijuca",
-            "imagem": "",
+            "nome": "21ª Delegacia Policial",
+            "endereco": "Av. dos Democráticos, 1322",
+            "bairro": "Higienópolis",
+            "descricao": "Delegacia em Higienópolis",
+            "sobre": "Delegacia em Higienópolis",
+            "imagem": "indisponivel.png",
             "classificacao": 3.5
         },
         {
+            "id": 1,
+            "nome": "17ª DP - São Cristóvão",
+            "endereco": "R. São Cristóvão, 309",
+            "bairro": "São Cristóvão",
+            "descricao": "Delegacia em São Cristóvão",
+            "sobre": "Delegacia em São Cristóvão",
+            "imagem": "indisponivel.png",
+            "classificacao": 4.5
+        },
+        {
             "id": 2,
-            "nome": "Get some pizza",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Delegacia na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 5
+            "nome": "26ª DP Meier",
+            "endereco": "R. Adriano, 304",
+            "bairro": "Todos os Santos",
+            "descricao": "Delegacia em Todos os Santos",
+            "sobre": "Delegacia em Todos os Santos",
+            "imagem": "indisponivel.png",
+            "classificacao": 5.0
         }
     ],
     "pontos-turisticos": [
         {
             "id": 0,
-            "nome": "Go to the gym",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Ponto turístico na Barra da Tijuca",
-            "imagem": "",
+            "nome": "Estádio do Maracanã",
+            "endereco": " Av. Pres. Castelo Branco, Portão 3",
+            "bairro": "Maracanã",
+            "descricao": "Ponto turístico no Maracanã",
+            "sobre": "Ponto turístico no Maracanã",
+            "imagem": "indisponivel.png",
             "classificacao": 4.5
         },
         {
             "id": 1,
-            "nome": "Walk the dog",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Ponto turístico na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 3.5
+            "nome": "Teatro Municipal",
+            "endereco": "Praça Floriano, S/N",
+            "bairro": "Centro",
+            "descricao": "Ponto turístico no Centro",
+            "sobre": "Ponto turístico no Centro",
+            "imagem": "indisponivel.png",
+            "classificacao": 4.0
         },
         {
             "id": 2,
-            "nome": "Get some pizza",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Ponto turístico na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 5
+            "nome": "Cristo Redentor",
+            "endereco": "Parque Nacional da Tijuca",
+            "bairro": "Alto da Boa Vista",
+            "descricao": "Ponto turístico no Alto da Boa Vista",
+            "sobre": "Ponto turístico no Alto da Boa Vista",
+            "imagem": "indisponivel.png",
+            "classificacao": 5.0
         }
     ],
     "praias": [
         {
             "id": 0,
-            "nome": "Go to the gym",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Praia na Barra da Tijuca",
-            "imagem": "",
+            "nome": "Piscinão de Ramos",
+            "endereco": "Av. Guanabara, S/n",
+            "bairro": "Ramos",
+            "descricao": "Praia em Ramos",
+            "sobre": "Praia em Ramos",
+            "imagem": "indisponivel.png",
             "classificacao": 4.5
         },
         {
             "id": 1,
-            "nome": "Walk the dog",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Praia na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 3.5
+            "nome": "Copacabana Posto 5",
+            "endereco": "Av. Atlântica, S/N",
+            "bairro": "Copacabana",
+            "descricao": "Praia em Copacabana",
+            "sobre": "Praia em Copacabana",
+            "imagem": "indisponivel.png",
+            "classificacao": 4.0
         },
         {
             "id": 2,
-            "nome": "Get some pizza",
-            "endereco": "",
-            "bairro": "",
+            "nome": "Ipanema Posto 9",
+            "endereco": "Av. Vieira Souto, 13",
+            "bairro": "Ipanema",
             "descricao": "",
             "sobre": "Praia na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 5
+            "imagem": "indisponivel.png",
+            "classificacao": 5.0
         }
     ],
     "onde-comer": [
@@ -140,9 +140,9 @@
         },
         {
             "id": 1,
-            "nome": "Seu Cristovao",
-            "endereco": "Rua Sao Cristovao 291 S",
-            "bairro": "Sao Cristovao",
+            "nome": "Seu Cristovão",
+            "endereco": "Rua Sao Cristovão 291 S",
+            "bairro": "Sao Cristovão",
             "descricao": "Restaurante na Barra da Tijuca",
             "sobre": "Restaurante na Barra da Tijuca",
             "imagem": "indisponivel.png",
@@ -156,7 +156,7 @@
             "descricao": "Restaurante na Barra da Tijuca",
             "sobre": "Restaurante na Barra da Tijuca",
             "imagem": "indisponivel.png",
-            "classificacao": 5
+            "classificacao": 5.0
         }
     ],
     "onde-dormir": [
@@ -188,71 +188,71 @@
             "descricao": "Hotel na Barra da Tijuca",
             "sobre": "Hotel na Barra da Tijuca",
             "imagem": "indisponivel.png",
-            "classificacao": 5
+            "classificacao": 5.0
         }
     ],
     "eventos": [
         {
             "id": 0,
-            "nome": "Go to the gym",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Evento na Barra da Tijuca",
-            "imagem": "",
+            "nome": "Carnaval",
+            "endereco": "R. Marquês de Sapucaí",
+            "bairro": "Santo Cristo",
+            "descricao": "Evento no Santo Cristo",
+            "sobre": "Evento no Santo Cristo",
+            "imagem": "indisponivel.png",
             "classificacao": 4.5
         },
         {
             "id": 1,
-            "nome": "Walk the dog",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
+            "nome": "Rock in Rio",
+            "endereco": "Av. Salvador Allende, 6500",
+            "bairro": "Barra da Tijuca",
+            "descricao": "Evento na Barra da Tijuca",
             "sobre": "Evento na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 3.5
+            "imagem": "indisponivel.png",
+            "classificacao": 5.0
         },
         {
             "id": 2,
-            "nome": "Get some pizza",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Evento na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 5
+            "nome": "Rio Open",
+            "endereco": "Rua Mario Ribeiro, 410",
+            "bairro": "Lagoa",
+            "descricao": "Evento na Lagoa",
+            "sobre": "Evento na Lagoa",
+            "imagem": "indisponivel.png",
+            "classificacao": 4.0
         }
     ],
     "banheiros": [
         {
             "id": 0,
-            "nome": "Go to the gym",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Banheiro na Barra da Tijuca",
-            "imagem": "",
+            "nome": "Banheiro do Infnet",
+            "endereco": "R. São José, 90",
+            "bairro": "Centro",
+            "descricao": "Banheiro no Centro",
+            "sobre": "Banheiro no Centro",
+            "imagem": "indisponivel.png",
             "classificacao": 4.5
         },
         {
             "id": 1,
-            "nome": "Walk the dog",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Banheiro na Barra da Tijuca",
-            "imagem": "",
+            "nome": "Banheiro Uruguaiana",
+            "endereco": "R. Uruguaiana, 160",
+            "bairro": "Centro",
+            "descricao": "Banheiro na estação Uruguaiana",
+            "sobre": "Banheiro na estação Uruguaiana",
+            "imagem": "indisponivel.png",
             "classificacao": 3.5
         },
         {
             "id": 2,
-            "nome": "Get some pizza",
-            "endereco": "",
-            "bairro": "",
-            "descricao": "",
-            "sobre": "Banheiro na Barra da Tijuca",
-            "imagem": "",
-            "classificacao": 5
+            "nome": "Banheiro Nova América",
+            "endereco": "Av. Pastor Martin Luther King Júnior, 126",
+            "bairro": "Del Castilho",
+            "descricao": "Banheiro em Del Castilho",
+            "sobre": "Banheiro em Del Castilho",
+            "imagem": "indisponivel.png",
+            "classificacao": 5.0
         }
     ]
 }
