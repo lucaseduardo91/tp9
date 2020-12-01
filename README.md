@@ -1,24 +1,15 @@
 # tp9
 
-## Project setup
-```
-npm install
-```
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### json-server
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+json-server --watch db.json
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+##  Trabalho para o bloco de frontend do infnet
+
+### Autor: Lucas Eduardo P. Martins
