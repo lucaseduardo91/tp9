@@ -9,8 +9,8 @@
       <b-input-group size="lg">
         <b-form-input
           type="text"
-          placeholder="Insira o nome da localidade ou o bairro..."
-          v-model="inputPesquisa"
+          placeholder="Insira o nome da localidade ou o bairro..."   
+          v-model="inputPesquisa"       
         ></b-form-input>
         <b-input-group-append>
           <b-button id="btn-pesquisar" @click="pesquisar">
@@ -60,7 +60,7 @@
       <b-row class="cards">
         <b-card
           :key="resultado.id"
-          v-for="resultado in pesquisar"
+          v-for="resultado in resultadosFiltrados"
           :title="resultado.nome"
           :img-src="require('../images/' + resultado.imagem)"
           :img-alt="resultado.descricao"
@@ -102,7 +102,7 @@ export default {
   data() {
     return {
       elementos: [],
-      inputPesquisa: null,
+      inputPesquisa: '',
       mostrarSugestoes: true,
       mostrarResultado: false,
       mostrarVazio: false,
@@ -140,6 +140,7 @@ export default {
       if (filtrados != null && filtrados.length > 0) {
         this.mostrarSugestoes = false;
         this.mostrarResultado = true;
+        this.mostrarVazio = false;
       } else {
         this.mostrarSugestoes = false;
         this.mostrarResultado = false;
@@ -149,6 +150,11 @@ export default {
       return filtrados;
     },
   },
+  computed: {
+    resultadosFiltrados: function(){
+      return this.pesquisar();
+    }
+  }
 };
 </script>
 

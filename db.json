@@ -2,7 +2,7 @@
     "hospitais": [
         {
             "id": 0,
-            "nome": "Bárra D'Or",
+            "nome": "Barra D'Or",
             "endereco": "Av. Ayrton Senna, 3079",
             "bairro": "Barra da Tijuca",
             "descricao": "Hospital na Barra da Tijuca",

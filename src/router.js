@@ -48,7 +48,7 @@ export default new VueRouter({
         },
         {
             path: '/ponto-turistico',
-            name: 'pontos-turisticos-detalhe',
+            name: 'pontos-turisticos',
             component: PesquisaLocal
         },
         {
