@@ -1,8 +1,8 @@
 <template>
   <b-container v-if="mostrar">
     <h4 id="tituloDetalhe">{{ elemento.nome }}</h4>
-    <b-row class="espaco">
-      <b-img
+    <b-row class="espacoTitulo">
+      <b-img class="imagemCentro"
         :src="require('../images/'+elemento.imagem)"
         fluid
         :alt='elemento.descricao'
@@ -12,6 +12,7 @@
     <b-row class="espaco">
       <b-container class="distribuicao descricao">
         <p>{{ elemento.sobre }}</p>
+        <p>Endereço: {{ elemento.endereco}}</p>
       </b-container>
       <b-container class="distribuicao mapa">
         <b-embed
@@ -57,10 +58,7 @@ export default {
     }
   },
   computed:{
-    buscarElemento(){
-      return this.elemento;
-    },
-    constroiTituloMapa(){
+    constroiTituloMapa: function(){
       return "Localização " + this.elemento.descricao;
     }
   }
@@ -72,6 +70,9 @@ export default {
   margin-top: 3rem;
   color: dimgray;
 }
+.imagemCentro{
+  margin: 0 auto;
+}
 .distribuicao{
   display: flex;
   flex-wrap: wrap;
@@ -79,13 +80,35 @@ export default {
   margin-bottom: 4rem;
 }
 .espaco{
-  margin-top: 3rem;
+  margin-top: 4rem;
+}
+.espacoTitulo{
+  margin-top: 2rem;
 }
 .mapa{
-  width: 350px;
-  height: 350px;
+  width: 50%;
 }
-.descricao{
-  width: 350px;
+.descricao{  
+  width: 50%;
+  color: dimgray;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 700px) {
+  .distribuicao {
+    display: initial;
+  }
+  .mapa{
+    width: 96%;
+  }
+  .descricao{  
+    width: 96%;
+    color: dimgray;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1rem;
+    text-align: justify;
+  }
 }
 </style>

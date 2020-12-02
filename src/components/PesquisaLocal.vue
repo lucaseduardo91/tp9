@@ -88,7 +88,7 @@
       </b-row>
     </b-container>
 
-    <b-container v-if='mostrarVazio'>
+    <b-container class="erroPesquisa" v-if='mostrarVazio'>
       <b-alert show variant="danger">Não foram encontrados resultados com os parâmetros informados</b-alert>
     </b-container>
   </div>
@@ -174,5 +174,8 @@ export default {
   color: dimgray;
   font-size: 1.5em;
   font-style: italic;
+}
+.erroPesquisa{
+  margin-top: 3rem;
 }
 </style>
