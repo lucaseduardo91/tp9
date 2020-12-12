@@ -6,7 +6,7 @@
       <p id="infoContato">Deixe aqui suas sugestões, solicitações, reclamações ou elogios. Sua opinião é muito importante para nós!</p>
     </div>
 
-    <b-form @submit="onSubmit" id="formulario" validated>
+    <b-form id="formulario" validated>
       
       <b-form-group id="input-group-nome" label="Nome:" label-for="input-nome">
         <b-form-input
@@ -38,9 +38,13 @@
       rows="5"      
       maxlength="850"></b-form-textarea>
       
-      <b-button type="submit" id="botaoSubmit">Enviar</b-button>    
+      <b-button @click="enviaDados" id="botaoSubmit">Enviar</b-button>    
        
-    </b-form>    
+    </b-form> 
+
+     <b-modal v-model="mostrarMensagem" title="Enviado com sucesso!" :hide-footer="true" id="mensagemSucesso">
+       <b-img center :src="require('../images/imagemSucesso.png')" fluid alt="símbolo de sucesso" title="símbolo de sucesso" id="imgCheck"></b-img>
+     </b-modal>
   </div>
 
 </template>
@@ -54,11 +58,21 @@ export default {
           email: '',
           name: '',
           mensagem: ''
-        }
+        },
+        mostrarMensagem: false
       }
   },
   methods: {
-    onSubmit() {
+    enviaDados() {
+      this.mostrarMensagem = true;
+      this.form.email = '';
+      this.form.name = '';
+      this.form.mensagem = '';  
+      
+      setTimeout(this.escondeMensagem, 1000);
+    },
+    escondeMensagem(){
+      this.mostrarMensagem = false;
     }
   }  
 };
@@ -101,5 +115,9 @@ export default {
     color: dimgray;
     font-size: 1.5em;
     font-style: italic;
+}
+#imgCheck{
+  max-width: 10rem;
+  max-height: 10rem;
 }
 </style>

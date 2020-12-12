@@ -2,7 +2,7 @@
   <div id="containerSobre">
   <b-card
     title="Savge"    
-    img-src="https://cdn.pixabay.com/photo/2016/04/03/02/28/rio-1303951_960_720.jpg"
+    :img-src="require('../images/rio.png')"
     img-alt="Imagem do Rio de Janeiro"
     img-top
     tag="article"
@@ -30,5 +30,8 @@ export default {
 #ficha{
   max-width: 70%;
   margin: 0 auto;
+}
+#ficha:hover {
+  transform: none;
 }
 </style>
